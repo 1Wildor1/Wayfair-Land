@@ -1,0 +1,93 @@
+.logo{
+    width: 150px;
+    margin-top: 5px;
+}
+
+header{
+    margin-bottom:30px ;
+}
+.headerConteiner{
+    margin: 10px 68px 0 68px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnConteiner{
+    margin: 0 10px;
+}
+.btnConteiner img{
+    width: 30px;
+    margin: 10px;
+}
+.btnConteiner a{
+    text-decoration: none;
+    color: black;
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+}
+
+.btnConteiner{
+    align-items: center;
+    display: flex;
+}
+.btnConteiner a:hover{
+    color: blueviolet;
+}
+
+.searchConteiner img{
+    width: 15px;
+    height: 15px;
+    margin: 0 10px 0 20px;
+}
+
+.searchConteiner input{
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+
+    height: 45px;
+}
+
+
+.searchConteiner input:focus {
+    outline: none; /* Убирает выделение по умолчанию */
+    border: none;  /* Убирает границу */
+}
+
+.searchConteiner input::placeholder{
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(84, 84, 84);
+}
+.searchConteiner{
+    align-items: center;
+    width:800px;
+    height: 48px;
+    max-width: 100%;
+    margin-left: 45px;
+    max-height: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+}
+
+.headerList{
+    display: flex;
+    border: 1px solid #d1d1d6;
+    width: 100%;
+    padding: 8px;
+    margin-top: 9px;
+    justify-content: center;
+}
+
+.headerList li{
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+    padding: 0 10px;
+    list-style-type: none;
+}
+.headerList a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}

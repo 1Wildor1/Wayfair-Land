@@ -1,0 +1,14 @@
+.glanceConteiner{
+    display: flex;
+}
+.glanceConteiner img{
+    width: 32px;
+    height: 32px;
+}
+.discountContainer{
+    display: flex;
+}
+.discountContainer img{
+    width: 32px;
+    height: 32px;
+}

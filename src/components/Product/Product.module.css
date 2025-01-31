@@ -1,0 +1,133 @@
+.path{
+    color: #4d4a4f;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productConteiner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+}
+
+
+
+
+.infoConteiner{
+    margin-left:10px ;
+}
+.infoTitle{
+    font-size: 19px;
+}
+.rating{
+    width: 500px;
+    height: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+.rating svg{
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+.priceInfo{
+    display: flex;
+}
+
+.piceInfoCart1{
+    margin-right: 20px;
+    font-size: 27px;
+}
+.flexDivider{
+    margin-top: 8px;
+}
+.line{
+    width: 2px;
+    height: 10px;
+    border-right: 2px solid #d1d1d6;
+    padding: 3px;
+}
+.piceInfoCart3{
+    width: 345px;
+    margin-left: 20px;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+.piceInfoCart4{
+    margin-top: 5px;
+}
+
+.paymentContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: border-color 0.5s ease, box-shadow 0.2s ease;
+}
+
+.paymentContainerPart{
+    max-height: 220px;
+}
+.paymentContainerPart img{
+    width: 500p;
+    border-radius: 10px;
+    /* opacity: 0.1; */
+    filter: brightness(.97);
+}
+.paymentContainerPart p{
+    font-size: 1rem;
+    width: 152px;
+}
+
+.paymentContainer:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    outline: 1px solid;
+    background-color: #fefefe;
+    filter: brightness(.98);
+    border-radius: 10px;
+}
+.plus img{
+    width: 30px;
+}
+.pricebtn{
+    font-size: 17px;
+    background-color: white;
+    border: 0.5px solid;
+    width: 188;
+    height: 68px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.pricebtn:hover{
+    outline: 2px solid;
+
+    
+}
+.arrowImg{
+    transform: rotate(180deg);
+    width: 15px;
+    padding: 0 20px 0 10px;
+}
+
+.similarOptionsBtn{
+    border: 1px solid #7b189f;
+    border-radius: 20px;
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    color: #7b189f;
+    font-size: 16px;
+    max-width: 713px;
+    max-height: 48;
+    transition: border-color 0.5s ease, box-shadow 0.2s ease;
+}
+.similarOptionsBtn:hover{
+    background-color: #f2e5f8;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+
+
+
+
+

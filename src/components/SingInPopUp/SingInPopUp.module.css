@@ -1,0 +1,61 @@
+.popUp {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 300px;
+    right: 70px;
+    top: 70px;
+    background-color: white;
+    z-index: 11;
+}
+
+.popUpConteiner {
+    width: 250px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.popUpConteiner button {
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: #7b189f;
+    color: white;
+    border: none;
+    height: 50px;
+    z-index: 11;
+}
+
+.popUpConteiner a {
+    margin: 10px 0;
+    color: #7b189f;
+    text-decoration: underline;
+}
+
+.popUpConteiner a:hover {
+    text-decoration: none;
+    color: #7b189f;
+
+}
+
+.popUpConteiner button:hover {
+    background-color: #893caa;
+    box-shadow: 1px 1px 4px black;
+    transition: border-color 0.5s ease, box-shadow 0.2s ease;
+}
+
+.popUpBorder {
+    margin: 10px 0;
+    border-top: 1px solid rgb(186, 186, 186);
+}
+
+
+
+.popUpLink:hover{
+    fill: #7b189f;
+    text-decoration: underline;
+    color: #7b189f;
+}

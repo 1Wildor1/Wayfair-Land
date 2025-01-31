@@ -1,0 +1,90 @@
+.toggleButton {
+    display: flex;
+    border-top: 1px solid rgb(167, 167, 167);
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.toggleButton:hover {
+    border-radius: 10px;
+    outline: 1px solid;
+}
+
+.toggleButton span {
+    padding: 20px 0;
+    font-weight: bold;
+    color: inherit;
+    font-size: 20px;
+    background-color: white;
+    width: 729px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    width: 10px;
+    padding-top: 20px;
+}
+
+.arrowBtn {
+    width: 10px;
+    transform: rotate(-90deg);
+    padding-bottom: 20px;
+}
+
+.content p {
+    box-shadow: inset 0px -20px 20px rgba(255, 255, 255, 1);
+    background: white;
+    overflow: hidden;
+    position: relative;
+    padding-left: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.expanded {
+    max-height: 200px;
+    /* Достаточно для текста */
+    opacity: 1;
+}
+
+.expanded2 {
+    max-height: 1500px;
+    opacity: 1;
+    /* Достаточно для текста */
+}
+
+.expanded3 {
+    max-height: 110px;
+    opacity: 1;
+    /* Достаточно для текста */
+}
+
+.hiddenBlock {
+    display: none;
+}
+
+.expanded.part4 {
+    display: block;
+    max-height: 400px;
+    /* Увеличиваем высоту при раскрытии второй части */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+.showMore {
+    display: block;
+    margin-top: 10px;
+    color: purple;
+    cursor: pointer;
+}

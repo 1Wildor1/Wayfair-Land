@@ -1,0 +1,43 @@
+.moreImgConteiner{
+    position: "fixed";
+    top: 0;
+    left: 0;
+    width: "100vw"; 
+    height: "100vh"; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 9;  */
+    text-align: center;
+}
+
+.moreImgHeader{
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+    
+    height: 46px;
+
+    position: fixed; /* Фиксируем хедер */
+  top: 0;
+  left: 0;
+  width: 100%; /* На всю ширину экрана */
+  display: flex; /* Включаем Flexbox */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  justify-content: center; /* По умолчанию выравниваем по центру */
+  background-color: #fff; /* Белый фон */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+  padding: 5px; /* Внутренний отступ */
+  z-index: 1000; 
+}
+.exit-button {
+    position: absolute; /* Абсолютное позиционирование для фиксации слева */
+    left: 20px; /* Отступ от левого края */
+    background-color: transparent; /* Прозрачный фон */
+    border: none; /* Убираем границы */
+    font-size: 16px; /* Размер текста */
+    cursor: pointer; /* Курсор при наведении */
+  }
+  
+  .title {
+    margin: 0; /* Убираем отступы */
+    font-size: 18px; /* Размер текста */
+  }

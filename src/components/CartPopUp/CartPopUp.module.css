@@ -1,0 +1,46 @@
+.cartPopUp{
+    position: fixed;
+    width: 500px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 12;
+    border: 1px solid;
+    height: 100%;
+}
+.cartPopUp svg{
+    width: 30px;
+}
+.cartPopUpConteiner{
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: center; /* Центрирование заголовка */
+    background: white;
+    border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+.cartPopUpConteiner a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  .cartLink{
+    display: flex;
+  }
+
+  .cartBody{
+    padding-left: 30px;
+  }
+
+  .cartBody p {
+    font-size: 17px;
+  }
+  .cartBody a{
+    color: #7b189f;
+    text-decoration: underline;
+  }
