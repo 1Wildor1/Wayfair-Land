@@ -1,0 +1,73 @@
+.otherGoods {
+    display: flex;
+    border-bottom: 1px solid rgb(195, 195, 195);
+
+}
+
+.otherGoodsBtnConteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherGoodsBtnConteiner button {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #7b189f;
+    width: 187px;
+    height: 30px;
+    font-size: 16px;
+    color: #7b189f;
+    transition: border-color 0.5s ease, box-shadow 0.2s ease;
+}
+
+.otherGoodsBtnConteiner button:hover {
+    background-color: #f2e5f8;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+.otherGoodsData img {
+    width: 187px;
+    height: 187px;
+    border-radius: 8px;
+    filter: brightness(.97);
+}
+
+.otherGoodsData {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid rgb(195, 195, 195);
+    flex-direction: column;
+}
+.otherGoodsData p:hover{
+    text-decoration: underline;
+}
+
+.otherGoodsData span {
+    font-size: 23px;
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #ff6600; /* Цвет стрелок */
+    background-color: rgba(0, 0, 0, 0.5); /* Фон кнопки */
+    width: 50px; /* Ширина */
+    height: 50px; /* Высота */
+    border-radius: 50%; /* Круглая форма */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+@media screen and (max-width: 320px){
+    .sliderContainer{
+        display: none;
+    }
+
+}

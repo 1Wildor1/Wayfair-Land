@@ -53,19 +53,19 @@
 }
 
 .expanded {
-    max-height: 200px;
+    max-height: 245px;
     /* Достаточно для текста */
     opacity: 1;
 }
 
 .expanded2 {
-    max-height: 1500px;
+    max-height: 1560px;
     opacity: 1;
     /* Достаточно для текста */
 }
 
 .expanded3 {
-    max-height: 110px;
+    max-height: 170px;
     opacity: 1;
     /* Достаточно для текста */
 }
@@ -76,7 +76,7 @@
 
 .expanded.part4 {
     display: block;
-    max-height: 400px;
+    max-height: 470px;
     /* Увеличиваем высоту при раскрытии второй части */
     transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
 

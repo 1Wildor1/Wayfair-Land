@@ -9,15 +9,15 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    background: rgba(0, 0, 0, 0.5); 
     z-index: 10;
-    opacity: 0; /* Начальное состояние - прозрачность */
-    visibility: hidden; /* Скрыто, чтобы не мешать кликам */
+    opacity: 0; 
+    visibility: hidden; 
     transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
   }
   
   .content-wrapper.overlay::before {
-    opacity: 1; /* Затемнение при появлении overlay */
+    opacity: 1; 
     visibility: visible;
   }
   

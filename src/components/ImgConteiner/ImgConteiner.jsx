@@ -18,20 +18,37 @@ export function ImgConteiner({changeContent}) {
   
     return (
       <div className={styles.imgConteiner}>
-        <div className={styles.secondImg}>
-          {bigImg.map((img, index) => (
-            <button key={index} onMouseEnter={() => setCurrentImg(img)}>
-              <img src={img} alt={`Thumbnail ${index + 1}`} style={{ width: 48, height: 48 }} />
-            </button>
-          ))}
+        <div className={styles.showSecondImg}>
+          <div className={styles.secondImg}>
+            {bigImg.map((img, index) => (
+              <button key={index} onMouseEnter={() => setCurrentImg(img)}>
+                <img src={img} alt={`Thumbnail ${index + 1}`} style={{ width: 48, height: 48 }} />
+              </button>
+            ))}
+          </div>
           <button onClick={() => changeContent()} className={styles.listSecondimg}>
             <div className={styles.overlayText}>12+ more</div>
           </button>
         </div>
         <div className={styles.mainImg}>
           <button>
-            <img src={currentImg} alt="Main" style={{ maxWidth: "100%", height: "auto" }} />
+            <img src={currentImg} alt="Main"  />
           </button>
+        </div>
+
+        <div className={styles.hideSmallImg}>
+        <div className={styles.secondImg}>
+          <div>
+            {bigImg.map((img, index) => (
+              <button key={index} onMouseEnter={() => setCurrentImg(img)}>
+                <img src={img} alt={`Thumbnail ${index + 1}`} style={{ width: 48, height: 48 }} />
+              </button>
+            ))}
+          </div>
+          <button onClick={() => changeContent()} className={styles.listSecondimg}>
+            <div className={styles.overlayText}>12+ more</div>
+          </button>
+        </div>
         </div>
       </div>
     );

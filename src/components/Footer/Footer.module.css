@@ -1,0 +1,127 @@
+.footer{
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+
+}
+.footerBottom {
+    border-top: 1px solid rgb(199, 199, 199);
+    padding: 50px 0 50px 50px;
+}
+
+.footerPart2{
+    display: flex;
+    justify-content: space-around;
+}
+.footerPart2 a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 0 20px 0;
+}
+.footerPart1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+.footerPart1Conteiner1{
+    margin-right: 20px;
+    height: 150px;
+    padding-top: 61px;
+}
+.footerPart3 svg{
+width: 28px;
+}
+.footerPart3 button{
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    margin: 5px 0 5px 0;
+    border: none;
+    justify-content: center;
+}
+.footerPart1Conteiner3 div{
+    margin: 10px 0 15px 0;
+}
+.footerPart1Conteiner2 input{
+    border-radius: 8px;
+    height: 40px;
+    width: 300px;
+    border: 0.5px solid rgb(133, 133, 133);
+}
+.footerPart1Conteiner2 button{
+    position: relative;
+    left: -6px;
+    width: 80px;
+    border: 0.5px solid rgb(133, 133, 133);
+    
+    border-radius: 0 8px 8px 0;
+    background-color: #7b189f;
+    color: white;
+    height: 45px;
+}
+.footerPart2Conteiner4 a{
+    text-decoration: underline;
+    color: #7b189f;
+}
+
+.footerPart3Conteiner1{
+    margin-bottom: 20px;
+}
+.footerPart3Conteiner1 a{
+    fill: #7b189f;
+    margin: 0 20px 0 0;
+}
+.footerPart3Conteiner2 a{
+text-decoration: none;
+color: black;
+margin: 0 20px 0 0;
+}
+
+.footerPart1Conteiner3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #7b189f;
+}
+
+
+@media screen and (max-width: 775px) {
+.footerPart2Conteiner{
+    margin: 20px 0 20px 20px;
+}
+    .footerPart2{
+        display: block;
+    }
+    .footerPart1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center; /* Центрируем содержимое */
+        text-align: center; /* Центрируем текст */
+        padding: 20px 0;
+    }
+
+    .footerPart1Conteiner1 {
+        margin-right: 0; /* Убираем отступ */
+        height: auto; /* Позволяем высоте адаптироваться */
+        padding-top: 0;
+    }
+
+    .footerPart1Conteiner2 {
+        margin-top: 20px;
+
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Добавляем отступы между элементами */
+    }
+
+    .footerPart1Conteiner2 input {
+        width: 80%; /* Растягиваем инпут на 80% ширины */
+        max-width: 400px; /* Ограничиваем максимальную ширину */
+    }
+
+    .footerPart1Conteiner2 button {
+        position: relative;
+        left: -18px;
+        max-width: 200px;
+    }
+ }

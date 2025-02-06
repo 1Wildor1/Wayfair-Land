@@ -6,14 +6,13 @@ import { ExtendedBtn } from '../ExtendedBtn/ExtendedBtn';
 import { Glance } from '../Glance/Glance';
 
 export function Product({ changeContent }) {
-
-
     return (
         <div>
             <p className={styles.path}>Kitchen & Tabletop / Kitchen Utensils & Tools / Baking & Mixing Tools / Mixing Bowls / SKU: OXO1131</p>
             <div className={styles.productConteiner}>
                 <ImgConteiner changeContent={changeContent} />
                 <div className={styles.infoConteiner}>
+                    <div>
                     <h2 className={styles.infoTitle}>Good Grips 3 Piece Mixing Bowl Set</h2>
                     <a className={styles.rating}>4.8
                         <svg width={'22px'} focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-hb-id="pl-icon" data-rtl-id="reviewsHistogramStar_5" ><path d="M12.624 3.433a.667.667 0 00-1.248 0L9.445 8.598a.333.333 0 01-.298.216l-5.508.24a.667.667 0 00-.386 1.188l4.315 3.432c.104.084.149.222.113.35l-1.473 5.314a.667.667 0 001.01.733l4.598-3.043a.333.333 0 01.368 0l4.598 3.044a.667.667 0 001.01-.734l-1.473-5.314a.333.333 0 01.113-.35l4.315-3.432a.667.667 0 00-.386-1.188l-5.508-.24a.333.333 0 01-.298-.216l-1.93-5.165z" ></path></svg>
@@ -21,6 +20,7 @@ export function Product({ changeContent }) {
                         <svg width={'22px'} focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-hb-id="pl-icon" data-rtl-id="reviewsHistogramStar_5" ><path d="M12.624 3.433a.667.667 0 00-1.248 0L9.445 8.598a.333.333 0 01-.298.216l-5.508.24a.667.667 0 00-.386 1.188l4.315 3.432c.104.084.149.222.113.35l-1.473 5.314a.667.667 0 001.01.733l4.598-3.043a.333.333 0 01.368 0l4.598 3.044a.667.667 0 001.01-.734l-1.473-5.314a.333.333 0 01.113-.35l4.315-3.432a.667.667 0 00-.386-1.188l-5.508-.24a.333.333 0 01-.298-.216l-1.93-5.165z" ></path></svg>
                         <svg width={'22px'} focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-hb-id="pl-icon" data-rtl-id="reviewsHistogramStar_5" ><path d="M12.624 3.433a.667.667 0 00-1.248 0L9.445 8.598a.333.333 0 01-.298.216l-5.508.24a.667.667 0 00-.386 1.188l4.315 3.432c.104.084.149.222.113.35l-1.473 5.314a.667.667 0 001.01.733l4.598-3.043a.333.333 0 01.368 0l4.598 3.044a.667.667 0 001.01-.734l-1.473-5.314a.333.333 0 01.113-.35l4.315-3.432a.667.667 0 00-.386-1.188l-5.508-.24a.333.333 0 01-.298-.216l-1.93-5.165z" ></path></svg>
                     </a>
+                    </div>
 
                     <div className={styles.priceInfo}>
                         <p className={styles.piceInfoCart1}>$27.99</p>
@@ -36,11 +36,10 @@ export function Product({ changeContent }) {
                             </p>
                         </p>
                     </div>
-
                     <div>
                         <button className={styles.similarOptionsBtn}>See Similar Options</button>
-
                     </div>
+
 
                     <h3>More Offers and Savings</h3>
                     <div style={{ display: "flex" }}>

@@ -1,0 +1,40 @@
+.otherGoods{
+    display: flex;
+
+}
+.otherGoodsBtnConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otherGoodsBtnConteiner button{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #7b189f;
+    width: 187px;
+    height: 30px;
+    font-size: 16px;
+    color: #7b189f;
+    transition: border-color 0.5s ease, box-shadow 0.2s ease;
+}
+.otherGoodsBtnConteiner button:hover{
+    background-color: #f2e5f8;
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
+.otherGoodsData img{
+    width: 187px;
+    height: 187px;
+    border-radius: 8px;
+    filter: brightness(.97);
+}
+.otherGoodsData{
+    padding: 10px;
+}
+.otherGoodsData span{
+    font-size: 23px;
+}
+.grade{
+    display: flex;
+    align-items: center;
+}

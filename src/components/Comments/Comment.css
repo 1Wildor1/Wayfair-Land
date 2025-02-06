@@ -1,0 +1,76 @@
+
+.comment_stars{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.comment_star{
+    background: url(/public/star_full.svg) no-repeat center / contain;
+    width: 100%;
+    height: 18px;
+    padding: 0;
+}
+.comment_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.comment_header_info {
+    display: flex;
+    align-items: center;
+}
+.comment {
+    margin-left: 48px;
+    margin-right: 48px;
+    border-top: 1px solid #bcbbbb;
+    padding-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.comment_header_name {
+    margin-left: 24px;
+    font-size: 16px;
+    color: #4d4a4f;
+}
+.comment_header_verified {
+    margin-left: 24px;
+    font-size: 16px;
+    color: #4d4a4f;
+    text-decoration: underline;
+}
+.comment_text {
+    width: 90%;
+    line-height: 1.5;
+    color: #4d4a4f;
+    font-size: 16px;
+}
+.comment_header_date{
+    color: #4d4a4f;
+}
+.comment_photo{
+    height: 128px;
+    width: 128px;
+    margin-right: 24px;
+}
+.photo{
+    height: 128px;
+    width: 128px;
+    border-radius: 25px;
+}
+img {
+    display: none;
+}
+
+
+img[src] {
+   display: block;
+ }
+ .comment_block {
+    width: 86%;
+}

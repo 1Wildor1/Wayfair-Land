@@ -9,14 +9,19 @@
     grid-template-columns: repeat(2, 1fr); 
     
 }
-
-
-
-
 .infoConteiner{
-    margin-left:10px ;
+    flex-direction: column;
+    /* display: flex; */
+    flex-wrap: wrap; /* Позволяет перенос элементов на новую строку */
+    justify-content: space-between; /* Равномерное распределение */
+    gap: 10px;
+    width: 600px;
+    /* margin-left:10px ; */
+    margin: 0 auto;
 }
 .infoTitle{
+    max-width: 700px;
+    width: 100%;
     font-size: 19px;
 }
 .rating{
@@ -117,8 +122,6 @@
     background-color: white;
     color: #7b189f;
     font-size: 16px;
-    max-width: 713px;
-    max-height: 48;
     transition: border-color 0.5s ease, box-shadow 0.2s ease;
 }
 .similarOptionsBtn:hover{
@@ -127,7 +130,38 @@
 }
 
 
+/* --- АДАПТИВНОСТЬ --- */
 
+@media screen and (max-width: 1410px) {
+    .productConteiner{
+        grid-template-columns: repeat(1, 1fr); 
+            
+        }
+}
+
+    /* Планшеты (до 1024px) */
+    @media screen and (max-width: 1024px) {
+        
+    }
+    
+    /* Мобильные устройства (до 768px) */
+    @media screen and (max-width: 768px) {
+       .path{
+        font-size: 12px;
+       }
+
+       .infoConteiner{
+        width: 500px;
+        margin: 0;
+       }
+       
+    }
+    
+    @media screen and (max-width: 320px){
+        .path{
+            font-size: 10px;
+           }
+    }
 
 
 

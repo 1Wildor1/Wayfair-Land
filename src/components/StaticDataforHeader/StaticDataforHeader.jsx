@@ -84,7 +84,7 @@ export const images = {
       },
     ]
   },
-  Kitchen:{
+  Kitchen: {
     img: [
       {
         src: "https://assets.wfcdn.com/im/71785593/scale-h349-w620%5Ecompr-r85/3173/317337440/Gather+in+the+kitchen.+Shop+kitchen+islands+and+bar+stools.+.jpg",
@@ -98,7 +98,7 @@ export const images = {
       },
     ]
   },
-  Baby:{
+  Baby: {
     img: [
       {
         src: "https://assets.wfcdn.com/im/85125414/scale-h349-w620%5Ecompr-r85/3173/317337430/The+kids%27+club%3A+Create+a+playroom+for+full-family+fun.+.jpg",
@@ -110,6 +110,133 @@ export const images = {
         alt: "Sweet dreams...",
         text: "Sweet dreams start here. Shop kids bedding."
       },
+    ]
+  },
+  Home: {
+    img: [
+      {
+        src: "https://assets.wfcdn.com/im/94330977/scale-h349-w620%5Ecompr-r85/3173/317337437/Level+up+your+kitchen.+Shop+patterned+tile.+.jpg",
+        alt: "Level up...",
+        text: "Level up your kitchen. Shop patterned tile."
+      },
+      {
+        src: "https://assets.wfcdn.com/im/18067103/scale-h349-w620%5Ecompr-r85/3173/317355411/Build+a+modern+powder+room.+.jpg",
+        alt: "Build a modern...",
+        text: "Build a modern powder room."
+      },
+    ]
+  },
+  Appliances: {
+    img: [
+      {
+        src: "https://assets.wfcdn.com/im/51229117/scale-h349-w620%5Ecompr-r85/3173/317337428/Shop+appliances+for+every+budget.+.jpg",
+        alt: "Find appliances...",
+        text: "Find appliances for every budget."
+      },
+      {
+        src: "https://assets.wfcdn.com/im/43601574/scale-h349-w620%5Ecompr-r85/3173/317356141/Shop+all-star+kitchen+appliances+with+all-star+prices.+.jpg",
+        alt: "Shop all-star...",
+        text: "Shop all-star kitchen appliances with all-star prices."
+      },
+    ]
+  },
+  Holiday: {
+    img: [
+      {
+        src: "https://assets.wfcdn.com/im/82980064/scale-h349-w620%5Ecompr-r85/3173/317337436/Shop+Valentine%27s+Day+d%C3%A9cor.+.jpg",
+        alt: "Valentine's...",
+        text: "Valentine's Day.",
+        imgSize: true
+
+      },
+      {
+        src: "https://assets.wfcdn.com/im/20979802/scale-h349-w620%5Ecompr-r85/2670/267060347/St.+Patrick%27s+Day.jpg",
+        alt: "St. Patrick's...",
+        text: "St. Patrick's Day.",
+        imgSize: true
+
+      },
+      {
+        src: "https://assets.wfcdn.com/im/13385821/scale-h349-w620%5Ecompr-r85/2670/267060360/Easter.jpg",
+        alt: "Easter...",
+        text: "Easter.",
+        imgSize: true
+
+      }
+    ]
+  },
+  Pet: {
+    img: [
+      {
+        src: "https://assets.wfcdn.com/im/35001122/scale-h349-w620%5Ecompr-r85/3173/317348746/Shop+stylish+beds+your+dog+%28and+you%29+will+love.+.jpg",
+        alt: "Shop Wayfair...",
+        text: "Shop Wayfair Verified™ Products."
+      }
+    ]
+  },
+  Shop: {
+    img: [
+      {
+        src: "https://assets.wfcdn.com/im/10923042/scale-h349-w620%5Ecompr-r85/2670/267048921/Bedroom.jpg",
+        alt: "Bedroom...",
+        text: "Bedroom",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/67264421/scale-h349-w620%5Ecompr-r85/3064/306457111/Home+Office.jpg",
+        alt: "Home Office...",
+        text: "Home Office",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/43981631/scale-h349-w620%5Ecompr-r85/3064/306456895/Living+Room.jpg",
+        alt: "Living Room...",
+        text: "Living Room",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/26560409/scale-h349-w620%5Ecompr-r85/3064/306457252/Bathroom.jpg",
+        alt: "Bathroom...",
+        text: "Bathroom",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/46342944/scale-h349-w620%5Ecompr-r85/3064/306456786/Kitchen.jpg",
+        alt: "Kitchen...",
+        text: "Kitchen",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/25764796/scale-h349-w620%5Ecompr-r85/3064/306457343/Garden+%26+Patio.jpg",
+        alt: "Garden & Patio...",
+        text: "Garden & Patio",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/55628315/scale-h349-w620%5Ecompr-r85/2670/267053010/Dining+Room.jpg",
+        alt: "Dining Room...",
+        text: "Dining Room",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/09328040/scale-h349-w620%5Ecompr-r85/2673/267307129/Laundry+%26+Utility+Room.jpg",
+        alt: "Laundry...",
+        text: "Laundry & Utility Room",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/29046201/scale-h349-w620%5Ecompr-r85/3064/306456570/Hallway+%26+Mudroom.jpg",
+        alt: "Hallway...",
+        text: "Hallway & Mudroom",
+        imgSize: true
+      },
+      {
+        src: "https://assets.wfcdn.com/im/52978723/scale-h349-w620%5Ecompr-r85/2670/267055135/Garage.jpg",
+        alt: "Garage...",
+        text: "Garage",
+        imgSize: true
+      },
+
     ]
   },
   Rugs: {
@@ -129,7 +256,243 @@ export const images = {
 };
 
 export const menuData = {
-  Baby:{
+  Shop: {
+    categories: [
+    ]
+  },
+  Holiday: {
+    categories: [
+
+    ]
+  },
+  Pet: {
+    categories: [
+      {
+        title: "Dog",
+        subcategories: [
+          "Dog Crates & Kennels",
+          "Dog Carriers",
+          "Dog Beds",
+          "Pet-Friendly Slipcovers",
+          "Dog Ramps & Stairs",
+          "Dog Strollers",
+          "Dog Houses",
+          "Dog Food Storage & Treat Jars",
+          "Dog Furniture Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Cat",
+        subcategories: [
+          "Pet Bowls & Feeders",
+          "Pet Gates & Doors",
+          "Cat Beds",
+          "Cat Cages & Catios",
+          "Cat Trees, Perches & Scratchers",
+          "Litter Boxes",
+          "Cat Furniture Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Featured Brands",
+        subcategories: [
+          "FurHaven",
+          "PetSafe",
+          "Archie & Oscar"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Trending Now",
+        subcategories: [
+          "Pet Tech Shop",
+          "Cozy Dog Beds",
+          "The Outdoor Pet Shop"
+        ],
+        isBold: true,
+      }
+    ]
+  },
+  Appliances: {
+    categories: [
+      {
+        title: "Kitchen Appliances",
+        subcategories: [
+          "Refrigerators & Freezers",
+          "Range Hoods",
+          "Microwaves",
+          "Ranges",
+          "Dishwashers",
+          "Wine & Beverage Coolers",
+          "Wall Ovens",
+          "Cooktops",
+          "Kitchen Appliance Packages",
+          "Kitchen Appliances Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Small Kitchen Appliances",
+        subcategories: [
+          "Air Fryers",
+          "Mixers & Attachments",
+          "Coffee, Espresso, & Tea",
+          "Mini Fridges",
+          "Ice Makers",
+          "Blenders",
+          "Toaster Ovens",
+          "Small Kitchen Appliances Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Vacuums & Deep Cleaners",
+        subcategories: [
+          "All Vacuums",
+          "Stick Vacuums",
+          "Upright Vacuums",
+          "Canister Vacuums",
+          "Vacuums & Deep Cleaners Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Washers & Dryers",
+        subcategories: [
+          "Washing Machines",
+          "Dryers",
+          "Washer & Dryer Sets",
+          "Washers & Dryers Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Heating, Cooling & Air Quality",
+        subcategories: [
+          "Air Conditioners",
+          "Air Purifiers",
+          "Dehumidifiers",
+          "Space Heaters",
+          "Heating, Cooling & Air Quality Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Featured Brands",
+        subcategories: [
+          "GE Appliances",
+          "Frigidaire",
+          "LG"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Trending Now",
+        subcategories: [
+          "Smart Appliances",
+          "Spring Cleaning Essentials"
+        ],
+        isBold: true,
+      }
+    ]
+  },
+  Home: {
+    categories: [
+      {
+        title: "Bathroom Remodel & Fixtures",
+        subcategories: [
+          "Bathroom Vanities",
+          "Bathroom Sink Faucets",
+          "Bathroom Mirrors",
+          "Bathroom Sinks",
+          "Showers & Bathtubs",
+          "Toilets & Bidets",
+          "Bathroom Remodel Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Kitchen Remodel & Fixtures",
+        subcategories: [
+          "Kitchen Faucets",
+          "Kitchen Sinks",
+          "Cabinets & Cabinet Hardware",
+          "Kitchen Remodel & Fixtures Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Window Treatments",
+        subcategories: [
+          "Curtains & Drapes",
+          "Blinds & Shades",
+          "Window Treatments Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Flooring & Walls",
+        subcategories: [
+          "Floor Tiles & Wall Tiles",
+          "Wall Paneling",
+          "Vinyl Flooring",
+          "Flooring & Walls Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Doors & Door Hardware",
+        subcategories: [
+          "Interior Doors",
+          "Exterior Doors",
+          "Door Hardware & Accessories",
+          "Doors & Door Hardware Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Hardware",
+        subcategories: [
+          "Cabinet Hardware",
+          "Door Hardware & Accessories",
+          "Bathroom Hardware",
+          "Hardware Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Heating, Cooling & Air Quality",
+        subcategories: [
+          "Fireplaces & Stoves",
+          "Air Conditioners",
+          "Heating, Cooling & Air Quality Sale"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Featured Brands",
+        subcategories: [
+          "Kohler",
+          "Shaw",
+          "Delta"
+        ],
+        isBold: true,
+      },
+      {
+        title: "Trending Now",
+        subcategories: [
+          "Renovate Your Bathroom",
+          "Patterned Floor & Wall Tile",
+          "Farmhouse Sinks",
+          "Tile Under $4"
+        ],
+        isBold: true,
+      }
+    ]
+  },
+  Baby: {
     categories: [
       {
         title: "Nursery Furniture",

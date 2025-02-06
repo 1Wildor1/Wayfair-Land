@@ -5,15 +5,24 @@ import { menuData, images } from '../StaticDataforHeader/StaticDataforHeader';
 export function Furniture({ linkTitle, showPopUpHeader }) {
     const [categories, setCategories] = useState([]);
     const [imagesOutdoor, setImagesOutdoor] = useState([]);
+    const [imageClass, setImageClass] = useState(styles.images);
 
     useEffect(() => {
-        setCategories(menuData[linkTitle].categories);
-        setImagesOutdoor(images[linkTitle].img);
+        const newCategories = menuData[linkTitle]?.categories || [];
+        const newImages = images[linkTitle]?.img || [];
+
+        setCategories(newCategories);
+        setImagesOutdoor(newImages);
+
+        const hasSmallImages = newImages.some(img => img.imgSize);
+        
+        setImageClass(hasSmallImages ? styles.onlyImg : styles.images);
 
     }, [linkTitle]); // Добавили useEffect, чтобы отслеживать изменения linkTitle
 
     return (
-        <div onMouseLeave={showPopUpHeader} className={styles.menu}>
+        
+        <div onMouseLeave={showPopUpHeader} className={imageClass === styles.images ? styles.menu : styles.menuOnlyImg}>
             <div className={styles.categories}>
                 {Array.isArray(categories) && categories.length > 0 ? (
                     categories.map((category, index) => (
@@ -29,17 +38,21 @@ export function Furniture({ linkTitle, showPopUpHeader }) {
                         </div>
                     ))
                 ) : (
-                    <p>No categories available</p>
+                    ""
                 )}
             </div>
-            <div className={styles.images}>
+            <div className={imageClass}>
                 {imagesOutdoor.map((img, idx) => (
-                    <div key={idx} className={styles.imageCard}>
-                        <img src={img.src} alt={img.alt} />
-                        <p>{img.text}</p>
-                    </div>
-                ))}
+            <div className={styles.imageCard}>
+              <img 
+                style={{ width: img.imgSize ? "230px" : "340px" }} 
+                src={img.src} 
+                alt={img.alt} 
+              />
+              <p>{img.text}</p>
             </div>
+                ))}
+          </div>
         </div>
     );
 }

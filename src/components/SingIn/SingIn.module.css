@@ -1,0 +1,142 @@
+.footerPart3Conteiner2 a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 0;
+}
+
+header {
+    padding: 20px 0 20px 0;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.singIn {
+    min-height: 100vh;
+    font-family: "sofia", "sofiaFallback", arial, sans-serif;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 1138px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+}
+
+
+.singInHeader {
+    display: flex;
+    align-items: center;
+}
+
+.singInHeader p {
+    margin: 20px 0;
+
+}
+
+.singInHeader svg {
+    width: 24px;
+    height: 24px;
+}
+.singInMain{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    padding: 0 0 200px 0;
+}
+footer {
+    padding: 10px;
+}
+.singIngManiConteiner{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.singIngManiConteiner h2{
+    text-align: center;
+    width: 398px;
+}
+.singIngManiConteiner p{
+    margin-top: 0;
+    color: red;
+    font-size: 12px;
+}
+.singIngManiConteiner input{
+    width: 400px;
+    height: 43px;
+    border-radius: 8px;
+}
+.singIngManiConteiner button{
+    width: 400px;
+    height: 43px;
+    border-radius: 20px;
+    border:none;
+    background-color: #7b189f;
+    color: white;
+}
+
+.singInMainInp button{
+    cursor: pointer;
+    width: 60px;
+    height: 43px;
+    top: -4px;
+    position: relative;
+    right: 60px;
+    background-color: white;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid;
+}
+.singInMainInp input{
+    border: 1px solid;
+    margin-left: 70px;
+    border-radius: 8px;
+    font-size: 24px;
+    height: 40px;
+    width: 400px;
+}
+.singInMainInp{
+    margin-bottom: 20px;
+}
+.singInMainTitle a{
+    margin-bottom: 20px;
+}
+.singInMainTitle h2{
+    margin-bottom: 10px;
+}
+.singInMainTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.singIngManiConteinerInp{
+    border: 1px solid rgb(195, 0, 0);
+}
+
+@media screen and (max-width: 320px) {
+    .singIngManiConteiner h2{
+        width: 320px;
+    }
+    .singIngManiConteiner input{
+        width: 260px;
+    }
+    .singIngManiConteiner button{
+        width: 300px;
+    }
+
+    .singInMainInp input{
+        width: 239px;
+        margin: 0 0 0 10px;
+
+    }
+
+    .singInMainInp button{
+right: 7px;
+    }
+}

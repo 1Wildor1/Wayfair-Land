@@ -5,6 +5,8 @@
 
 .imgConteiner{
     display: flex;
+     /* Центрируем по горизонтали */
+    gap: 20px;
 }
 
 
@@ -28,7 +30,7 @@
   
 .listSecondimg{
     border-radius: 10px;
-
+    cursor: pointer;
     background-image: url("https://assets.wfcdn.com/im/22279235/resize-h800-w800%5Ecompr-r85/1349/13494229/Good+Grips+3+Piece+Mixing+Bowl+Set.jpg");
     background-size: cover; 
     background-position: center;
@@ -41,6 +43,7 @@
     margin: 0;
     padding: 0;
 }
+
 
 .secondImg img:hover{
     cursor: pointer;
@@ -61,6 +64,7 @@
     display: flex;
     margin-right: 10px;
     flex-direction: column;
+    align-items: center;
 }
 .overlayText {
     position: relative;
@@ -75,9 +79,13 @@
     z-index: 1; 
     pointer-events: none; 
   }
+  
   .mainImg img{
-    width: 649px;
-    height: 649px;
+   flex: 1; /* Занимает всю доступную ширину */
+    display: flex;
+    justify-content: center; /* Центрируем изображение */
+    align-items: center;
+    max-width: 650px;
 }
 
 .moreImgConteiner{
@@ -91,4 +99,50 @@
     justify-content: center;
     align-items: center;
     z-index: 9999; 
+}
+
+.hideSmallImg{
+    display: none;
+}
+
+
+@media screen and (max-width: 1410px) {
+    .mainImg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .imgConteiner{
+        align-items: center; /* Выравниваем элементы по вертикали */
+        justify-content: center; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .mainImg img{
+        max-width: 400px;
+    } 
+    
+    .showSecondImg{
+        display: none;
+    }
+    .hideSmallImg{
+        display: block;
+    }
+    .imgConteiner{
+        display: block;
+    }
+    .secondImg{
+    display: flex;
+    margin-right: 10px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .mainImg img{
+        max-width: 200px;
+    }
 }

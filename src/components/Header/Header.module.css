@@ -42,9 +42,8 @@ header{
 
 .searchConteiner input{
     border: none;
-    width: 100%;
     border-radius: 8px;
-
+    width: 100%;
     height: 45px;
 }
 
@@ -75,7 +74,6 @@ header{
 .headerList{
     display: flex;
     border: 1px solid #d1d1d6;
-    width: 100%;
     padding: 8px;
     margin-top: 9px;
     justify-content: center;
@@ -83,11 +81,133 @@ header{
 
 .headerList li{
     font-family: "sofia", "sofiaFallback", arial, sans-serif;
-    padding: 0 10px;
+    padding: 0 7px;
     list-style-type: none;
 }
 .headerList a{
     font-size: 16px;
     text-decoration: none;
     color: black;
+}
+
+.burgerMenu img{
+    width: 30px;
+}
+.burgerMenu{
+    display: none;
+}
+.headerBtnConteiner1{
+    display: none;
+}
+.headerBtnConteiner2{
+    display: flex;
+}
+.headerConteinerHiden{
+    display: flex;
+    justify-content: space-between;
+}
+.burgerMenu button{
+    background-color: white;
+    padding: 1px;
+    border: none;
+    cursor: pointer;
+}
+.burgerMenu{
+padding-top: 10px;
+}
+/* --- АДАПТИВНОСТЬ --- */
+
+
+@media screen and (max-width: 1335px) {
+.headerList li{
+    padding: 0 5px;
+}
+}
+/* Планшеты (до 1024px) */
+@media screen and (max-width: 1024px) {
+
+    .headerList {
+        display: none; /* скрываем скролл */
+    }
+    .searchConteiner{
+        margin: 0;
+    }
+    .headerConteinerHiden a{
+        display: none;
+    }
+    .headerBtnConteiner1{
+        display: flex;
+        
+    }
+    .headerBtnConteiner2{
+        display: none;
+    }
+    .burgerMenu{
+        display: block;
+    }
+    .headerConteiner {
+        flex-direction: column;
+    }
+    
+    .searchConteiner {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btnConteiner {
+        margin: 5px;
+    }
+    
+}
+
+
+
+/* Мобильные устройства (до 768px) */
+@media screen and (max-width: 768px) {
+    .searchConteiner{
+        height: 37px;
+    }
+    .searchConteiner input{
+        height: 30px;
+    }
+    .logo{
+        max-width: 100%;
+        margin: 5px 2px 0 13px;
+
+    }
+    .headerConteiner {
+        flex-direction: column;
+        text-align: center;
+        margin: 10px 25px 0 25px;
+    }
+
+   
+
+    /* Прячем текстовые кнопки, оставляем иконки */
+    .btnConteiner a {
+        display: none;
+    }
+
+    /* Меню с прокруткой */
+    
+
+    .headerList li {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .logo{
+        width: 100px;
+    }
+    .burgerMenu img{
+        width: 20px;
+    }
+    .btnConteiner{
+        margin: 5;
+    }
+    .btnConteiner img{
+        margin: 2px;
+        width: 20px;
+    }
 }
