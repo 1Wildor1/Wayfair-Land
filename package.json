@@ -2,7 +2,7 @@
   "name": "wayfair-land",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://1Wildor1.github.io/Wayfair-Land",
+  "homepage": "https://1Wildor1.github.io/Wayfair-Land/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

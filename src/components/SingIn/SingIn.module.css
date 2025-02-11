@@ -23,7 +23,7 @@ header {
     max-width: 1138px;
 }
 
-header {
+.singIn header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid;
